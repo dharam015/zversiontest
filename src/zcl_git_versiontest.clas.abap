@@ -17,6 +17,7 @@ CLASS zcl_git_versiontest IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
     out->write( 'main branch output' ).
-
+out->write( ' another test ;;' ).
+* add a comment
   ENDMETHOD.
 ENDCLASS.
